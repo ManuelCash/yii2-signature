@@ -141,7 +141,7 @@ saveSVGButton.addEventListener("click", function (event) {
 
 function saveToServer(url) {
     if (signaturePad.isEmpty()) {
-        alert("Please provide a signature first.");
+        alert("Please provide a signature first..");
     } else {
         var dataURL = signaturePad.toDataURL();
         sendToUrl(dataURL,url);
